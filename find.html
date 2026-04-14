@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Comando FIND</title>
+</head>
+<body>
+
+    <a href="README.md">Volver al índice</a>
+
+    <h1>Comando FIND</h1>
+    <p>Busca archivos y directorios según nombre, tamaño, permisos o fecha.</p>
+    
+    <h3>Opciones Principales</h3>
+    <ul>
+        <li><code>-name</code>: Busca por el nombre exacto.</li>
+        <li><code>-perm</code>: Busca por permisos (ej. 777).</li>
+        <li><code>-mtime</code>: Busca según los días de modificación.</li>
+        <li><code>-exec</code>: Ejecuta un comando sobre lo encontrado.</li>
+        <li><code>-size</code>: Busca por el tamaño del archivo.</li>
+    </ul>
+
+    <h3>Ejemplos de uso</h3>
+    <ul>
+        <li>Buscar por nombre: <code>find / -name "documento.txt"</code></li>
+        <li>Buscar por permisos: <code>find . -perm 777</code></li>
+        <li>Buscar y borrar: <code>find /var/log -mtime +7 -exec rm {} \;</code></li>
+    </ul>
+
+</body>
+</html>
