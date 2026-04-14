@@ -12,9 +12,6 @@ Este repositorio contiene un manual detallado de comandos de Linux, desarrollado
 6. [Comando HEAD](head.html)
 7. [Comando TAIL](tail.html)
 8. [Comando CHMOD](chmod.html)
-9. [Comando WC](wc.html)
-10. [Comando DF](df.html)
-11. [Comando DU](du.html)
 
 ---
 *Hecho por: Sergio Sanchez, Hugo Gomez y Sergio Jimenez*
